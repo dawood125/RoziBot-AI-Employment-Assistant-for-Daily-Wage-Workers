@@ -1,0 +1,62 @@
+{
+  "construction": {
+    "name_ur": "تعمیراتی مزدور",
+    "cities": {
+      "lahore": { "min": 1500, "max": 2500, "avg": 2000 },
+      "karachi": { "min": 1800, "max": 2800, "avg": 2300 },
+      "islamabad": { "min": 2000, "max": 3000, "avg": 2500 },
+      "rawalpindi": { "min": 1800, "max": 2800, "avg": 2300 },
+      "peshawar": { "min": 1200, "max": 2000, "avg": 1600 },
+      "quetta": { "min": 1200, "max": 2000, "avg": 1600 },
+      "faisalabad": { "min": 1300, "max": 2200, "avg": 1800 },
+      "multan": { "min": 1200, "max": 2000, "avg": 1600 },
+      "sialkot": { "min": 1300, "max": 2200, "avg": 1800 },
+      "gujranwala": { "min": 1300, "max": 2200, "avg": 1800 }
+    }
+  },
+  "domestic": {
+    "name_ur": "گھریلو ملازم",
+    "cities": {
+      "lahore": { "min": 15000, "max": 25000, "avg": 20000 },
+      "karachi": { "min": 18000, "max": 30000, "avg": 24000 },
+      "islamabad": { "min": 20000, "max": 35000, "avg": 27000 },
+      "rawalpindi": { "min": 18000, "max": 30000, "avg": 24000 },
+      "peshawar": { "min": 12000, "max": 20000, "avg": 16000 },
+      "quetta": { "min": 12000, "max": 20000, "avg": 16000 },
+      "faisalabad": { "min": 13000, "max": 22000, "avg": 17000 },
+      "multan": { "min": 12000, "max": 20000, "avg": 16000 }
+    },
+    "note": "Monthly salary"
+  },
+  "factory": {
+    "name_ur": "فیکٹری ورکر",
+    "cities": {
+      "lahore": { "min": 32000, "max": 45000, "avg": 38000 },
+      "karachi": { "min": 32000, "max": 50000, "avg": 40000 },
+      "faisalabad": { "min": 32000, "max": 42000, "avg": 36000 },
+      "sialkot": { "min": 32000, "max": 45000, "avg": 38000 }
+    },
+    "note": "Monthly, minimum wage Rs. 32000"
+  },
+  "agriculture": {
+    "name_ur": "زرعی مزدور",
+    "cities": {
+      "lahore": { "min": 800, "max": 1500, "avg": 1200 },
+      "multan": { "min": 700, "max": 1200, "avg": 1000 },
+      "faisalabad": { "min": 800, "max": 1400, "avg": 1100 },
+      "peshawar": { "min": 700, "max": 1200, "avg": 900 }
+    }
+  },
+  "shop": {
+    "name_ur": "دکان ملازم",
+    "cities": {
+      "lahore": { "min": 18000, "max": 30000, "avg": 24000 },
+      "karachi": { "min": 20000, "max": 35000, "avg": 27000 },
+      "islamabad": { "min": 22000, "max": 38000, "avg": 30000 },
+      "faisalabad": { "min": 15000, "max": 25000, "avg": 20000 }
+    },
+    "note": "Monthly salary"
+  },
+  "minimum_wage_2024": 32000,
+  "overtime_rate": "1.5x normal rate for hours beyond 48/week"
+}
