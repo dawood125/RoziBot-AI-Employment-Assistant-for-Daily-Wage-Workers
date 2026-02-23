@@ -230,7 +230,7 @@ export default function LandingPage() {
           ہر مزدور کا حق ہے کہ وہ اپنی منصفانہ مزدوری جانے
         </p>
         <p className="mt-4 text-gray-400">
-          Built with ❤️ for Lablab.ai Hackathon 2025
+          Built with ❤️ for HEC Gen AI Cohort 2 Hackathon 2025
         </p>
       </footer>
     </div>
