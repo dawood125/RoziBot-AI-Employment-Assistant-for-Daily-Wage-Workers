@@ -11,7 +11,12 @@ const app = express();
 connectDB();
 
 // Middleware
-app.use(cors({ origin: process.env.CLIENT_URL || "*" }));
+app.use(
+  cors({
+    origin: "https://rozi-bot-ai-employment-assistant-fo.vercel.app/" || "*",
+     credentials: true
+  }),
+);
 app.use(express.json({ limit: "10mb" }));
 
 // Routes
