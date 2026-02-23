@@ -1,5 +1,5 @@
 const API_BASE =
-  import.meta.env.VITE_API_URL || "http://localhost:5000/api";
+  import.meta.env.VITE_API_URL || "https://rozibot-ai-employment-assistant-for.onrender.com/api";
 
 export async function sendMessage(message, sessionId, image = null) {
   const body = { message, sessionId };
