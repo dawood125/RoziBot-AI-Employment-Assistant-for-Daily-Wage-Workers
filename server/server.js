@@ -13,7 +13,7 @@ connectDB();
 // Middleware
 app.use(
   cors({
-    origin: "https://rozi-bot-ai-employment-assistant-fo.vercel.app/" || "*",
+    origin: "https://rozi-bot-ai-employment-assistant-fo.vercel.app" || "*",
      credentials: true
   }),
 );
