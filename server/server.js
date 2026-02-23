@@ -11,12 +11,24 @@ const app = express();
 connectDB();
 
 // Middleware
-app.use(
-  cors({
-    origin: "https://rozi-bot-ai-employment-assistant-fo.vercel.app" || "*",
-     credentials: true
-  }),
-);
+
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://rozi-bot-ai-employment-assistant-fo.vercel.app"
+];
+
+app.use(cors({
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS"));
+    }
+  },
+  credentials: true
+}));
+
+
 app.use(express.json({ limit: "10mb" }));
 
 // Routes
